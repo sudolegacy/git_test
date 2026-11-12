@@ -2,12 +2,16 @@
 
 Extracted from the November 2026 mobile app market research. Each file is a self-contained analysis (score breakdown, market, customer problem, competitors, distribution, monetisation, financial model, product blueprint, technical architecture, risks/red-team, execution outline, sources).
 
-| # | Opportunity | Score | File |
+Each app has its own folder containing:
+- `analysis.md` — the full research analysis
+- `opus-build-prompt.md` — a complete build brief to paste into Claude Opus 5.5 to develop the iOS + Android app (stack, data model, screens, AI specs, payments/subscriptions, store compliance, analytics, phased build order, definition of done), written so the revenue-critical flows are built first
+
+| # | Opportunity | Score | Folder |
 |---|---|---|---|
-| 1 | Solo-trades quote-to-cash (AI voice quote, payments, auto-chase) — **winner** | 78 | `01-solo-trades-quote-to-cash.md` |
-| 2 | GLP-1 medication companion (oral-pill era, international) — runner-up | 75 | `02-glp1-medication-companion.md` |
-| 3 | Short-video recipe import + weekly meal planner | 71 | `03-short-video-recipe-meal-planner.md` |
-| 4 | Co-parenting ledger with one-parent mode | 70 | `04-co-parenting-ledger.md` |
+| 1 | Solo-trades quote-to-cash (AI voice quote, payments, auto-chase) — **winner** | 78 | `01-solo-trades-quote-to-cash/` |
+| 2 | GLP-1 medication companion (oral-pill era, international) — runner-up | 75 | `02-glp1-medication-companion/` |
+| 3 | Short-video recipe import + weekly meal planner | 71 | `03-short-video-recipe-meal-planner/` |
+| 4 | Co-parenting ledger with one-parent mode | 70 | `04-co-parenting-ledger/` |
 
 Scoring weights: demand 20 · revenue 20 · competition & differentiation 15 · acquisition 15 · retention 10 · feasibility 10 · profitability & scalability 10.
 
